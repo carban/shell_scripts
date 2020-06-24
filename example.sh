@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo 'hw!'
+var=$1
+echo $1
