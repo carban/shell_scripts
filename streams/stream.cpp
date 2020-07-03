@@ -4,7 +4,7 @@
 
 
 bool isPrime(int n){
-	
+
 	for(int i = 2 ; i <= sqrt(n) ; i++){
 		if(n % i == 0){
 			return 0;
@@ -14,15 +14,15 @@ bool isPrime(int n){
 }
 
 int main(){
-	
+
 	int n = 80;
 	//std::cout << "write a value for n: "; std::cin >> n;
-	
+
 	unsigned int microseconds = 500000;
-	
+
 	if(n >= 2){
 		for(int i = 2 ; i <= n ; i++){
-			
+
 			bool v = isPrime(i);
 			usleep(microseconds);
 			if(v){
@@ -36,6 +36,6 @@ int main(){
 	}else{
 		std::cout << "n must be grater or equal to 2" << std::endl;
 	}
-	
+
 	return 0;
 }
