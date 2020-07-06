@@ -2,7 +2,7 @@
 #include <math.h>
 #include <unistd.h>
 
-
+// insert function
 bool isPrime(int n){
 
 	for(int i = 2 ; i <= sqrt(n) ; i++){
