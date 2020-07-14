@@ -1,8 +1,9 @@
 #!/bin/sh
 
-files=`(cat listIcons.txt)`
+files=`(cat ${1})`
 
 for i in $files; do
   #echo "sisas pri $i"
-  notify-send "hola" "hola" -i $i
+  notify-send "hola" -i $i -u low -t 5000; 
+  sleep 0.5
 done	
