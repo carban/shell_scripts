@@ -1,0 +1,8 @@
+alias gitc='git add . && git commit -m'
+alias grep='grep --color=auto'
+alias l='ls'
+alias la='l -Ah'
+alias ll='l -lh'
+alias lla='l -Alh'
+alias ls='ls --color=auto --group-directories-first'
+alias tsm='transmission-remote'
