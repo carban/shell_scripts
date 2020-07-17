@@ -1,0 +1,6 @@
+./hola/node_modules
+./hola/node_modules/fdfd/node_modules
+./hola/node_modules/dfdfd/asda/asdasdas/node_modules
+./hola/node_modules/dfdfdfd
+./hola/chao/node_modules/dfdfdfd
+./hola/chao/hello/node_modules
