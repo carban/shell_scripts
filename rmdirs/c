@@ -2,3 +2,4 @@ find -name "node_modules" | grep "^\./[^/]\+/node_modules$"
 
 grep "^\.\/((?!node_modules).)+\/node_modules$" expressions.txt
 
+time find -name "node_modules" | grep -v  "^\./.*/node_modules/.*"
