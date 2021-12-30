@@ -19,10 +19,9 @@ if [ ! -z "$ssid" ]; then
 	echo "$conn"  
 
 	if ping -q -c 2 -W 2 8.8.8.8 >/dev/null; then
-    notify-send -i "network-wireless-symbolic64x64" "Your internet is working 😀"
-  else
-    notify-send -i "network-wireless-symbolic64x64" "Your internet is not working 😦"
-  fi
-
+		notify-send -i "network-wireless-symbolic64x64" "Your internet is working 😀"
+	else
+		notify-send -i "network-wireless-symbolic64x64" "Your internet is not working 😦"
+	fi
 
 fi
